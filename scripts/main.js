@@ -45,7 +45,7 @@ function reloadStorage(){
 
 function deleteList(){
     todoList = []
-    localStorage = {}
+    localStorage.todoList = {}
     render()
 }
 
