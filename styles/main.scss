@@ -1,2 +1,46 @@
 @import 'normalize';
 @import 'skeleton';
+
+body{
+  background: #FF717A;
+}
+
+button{
+  background: #F0F0F0;
+}
+
+nav{
+  background: #3A414A;
+  color: #FFFFFF;
+  height: 3em;
+  margin-bottom: 2em;
+  padding-left: 3em;
+  h4{
+    line-height: 1.5em;
+    margin: 0;
+  }
+}
+.input-container{
+  text-align: center;
+  margin-bottom: 2em;
+  #text-box {
+    width: 20em;
+  }
+  .button-primary{
+    color: #000000;
+  }
+}
+
+#text-box-section{
+  margin: 0 20%;
+  > div {
+    margin-bottom: 2em;
+    p {
+      display: inline-block;
+    }
+    button{
+      display: inline-block;
+      float: right;
+    }
+  }
+}
